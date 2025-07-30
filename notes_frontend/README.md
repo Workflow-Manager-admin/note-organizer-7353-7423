@@ -11,7 +11,18 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
-In the project directory, you can run:
+---
+
+## App Structure & Theme
+
+- Header with app name (primary color, #1976d2).
+- Sidebar for categories (background #f8f9fa, secondary highlight #90caf9).
+- Main section for notes (background #fff, accent color for important UI: #fbc02d).
+- Minimalistic light theme, all interactive elements styled with theme colors.
+
+## API Connectivity
+
+App uses `REACT_APP_API_URL` environment variable to connect to the notes_database backend (default is `/api`).
 
 ### `npm start`
 
